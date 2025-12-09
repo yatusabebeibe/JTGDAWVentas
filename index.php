@@ -22,7 +22,7 @@ if (!empty($_SESSION['active'])) {
                 $_SESSION['user'] = $dato['usuario'];
                 header('Location: src/');
             } else {
-                $alert = 'CONTRASEÑA INCORRECTA';
+                $alert = 'USUARIO O CONTRASEÑA INCORRECTA';
                 session_destroy();
             }
         }

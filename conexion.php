@@ -1,8 +1,8 @@
 <?php
-    $host = "localhost";
-    $user = "root";
-    $clave = "";
-    $bd = "laragon_pos";
+    $host = "10.199.10.22";
+    $user = "userDBVentas";
+    $clave = "paso";
+    $bd = "DBVentas";
     $conexion = mysqli_connect($host,$user,$clave,$bd);
     if (mysqli_connect_errno()){
         echo "No se pudo conectar a la base de datos";
